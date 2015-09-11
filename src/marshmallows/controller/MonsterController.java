@@ -1,12 +1,12 @@
 package marshmallows.controller;
 
 import marshmallows.model.MarshmallowMonster;
-import marshmellow.view.Marshmalloutput;
+import marshmallow.view.Marshmalloutput;
 
 public class MonsterController
 {
 	private MarshmallowMonster cassandraMonster;
-	private MarshmellowOuput myOutput;
+	private MarshmallowOuput myOutput;
 	
 	public MonsterController()
 	{
@@ -17,7 +17,7 @@ public class MonsterController
 		boolean hasBellyButton = false;
 		String name ="Happy Monster";
 		
-		myOutput = new MarshmellowOutput();
+		myOutput = new MarshmallowOutput();
 		cassandraMonster = new MarshmallowMonster(name, eyes, noses, hair, legs, hasBellyButton);
 	}
 	

@@ -29,7 +29,7 @@ public class MarshmallowMonster
 	public String toString()
 	
 	{
-		String monster = "This Monster has" + monsterEyes + "eyes, and ot's name is" +monsterName;
+		String monster = "This Monster has " + monsterEyes + "eyes, and ot's name is " +monsterName;
 		
 		return monster;
 		
