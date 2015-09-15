@@ -24,6 +24,11 @@ public class MonsterController
 	public void start()
 	{
 		myOutput.displayMonsterInfo(cassandraMonster.toString());
+		ask questions();
+		myOUtput.displayMonsterInfo("New MOnster Info" + casdraMonster.toString());
 	}
-	
+	private void askQuestions()
+	{
+		
+	}
 }
