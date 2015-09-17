@@ -29,8 +29,8 @@ public class MonsterController
 
 	{
 		myOutput.displayMonsterInfo(cassandraMonster.toString());
-		askQuestions();
-		myOutput.displayMonsterInfo("New Monster Info" + cassandraMonster.toString());
+		makeUserMonster();
+		myOutput.displayMonsterInfo("New Monster Info" + userMonster.toString());
 	}
 	
 	private void askQuestions()
@@ -52,6 +52,7 @@ public class MonsterController
 		cassandraMonster.setMonsterNoses(betterMonsterNoses);
 		System.out.println("Type in a different number of bellybuttons for your monster");
 		boolean betterMonsterBellyButton = monsterScanner.nextBoolean();
+		
 		cassandraMonster.setMonsterBellyButton(betterMonsterBellyButton);
 	}
 		
