@@ -13,10 +13,10 @@ public class MonsterController
 	
 	public MonsterController()
 	{
-		int eyes = 2;
-		double legs = 4;
-		double hair = 3;
-		int noses = 1;
+		int eyes = 2 ;
+		double legs = 4 ;
+		double hair = 3 ;
+		int noses = 2 ;
 		boolean hasBellyButton = false;
 		String name ="Happy Monster";
 		
@@ -70,7 +70,7 @@ public class MonsterController
 		boolean userBellyButton;
 		
 		//Step two: Define variables by using the Scanner to get user input.
-		System.out.println("Type in your name for your monser.");
+		System.out.println("Type in your name for your monster.");
 		userName = monsterScanner.nextLine();
 		System.out.println("Type in the number of eyes your monster has");
 		userEyes = monsterScanner.nextInt();
