@@ -29,7 +29,8 @@ public class MonsterController
 
 	{
 		myOutput.displayMonsterInfo(cassandraMonster.toString());
-		makeUserMonster();
+		myOutput.displayMonsterGUI(cassandraMonster.toString());
+		this.makeUserMonster();
 		myOutput.displayMonsterInfo("New Monster Info" + userMonster.toString());
 	}
 	
